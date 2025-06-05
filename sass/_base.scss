@@ -1,0 +1,32 @@
+// CUSTOM PROPERTIES OR CSS VARIABLES
+:root {
+  --primary-color: #c5f82a;
+
+  --grey-700: #333333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+
+  --default-color: #ffffff;
+}
+
+// UNIVERSAL STYLES
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}

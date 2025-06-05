@@ -1,0 +1,23 @@
+.container {
+  background-color: var(--grey-900);
+  height: 100vh;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    background-color: var(--grey-800);
+    height: 33rem;
+    width: 21rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}

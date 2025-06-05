@@ -1,0 +1,70 @@
+.container__card {
+  // AVATAR SECTION
+  &--avatar {
+    width: 100%;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 100%;
+    }
+  }
+
+  // NAME SECTION
+  &--name {
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: var(--default-color);
+      margin-bottom: 0.1rem;
+    }
+
+    h2 {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-bottom: 0.2rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--default-color);
+    }
+  }
+
+  // SKILLS SECTION
+  &--skills {
+    width: 18rem;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+
+    li {
+      background-color: var(--grey-700);
+      list-style: none;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+
+    a {
+      color: var(--default-color);
+      text-decoration: none;
+    }
+
+    li:hover {
+      background-color: var(--primary-color);
+
+      & a {
+        color: var(--grey-900);
+        cursor: pointer;
+      }
+    }
+  }
+}
