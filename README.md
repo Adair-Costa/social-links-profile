@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://github.com/Adair-Costa/qr-code-challenge.git)
+- Solution URL: (https://github.com/Adair-Costa/social-links-profile.git)
 - Live Site URL: (https://social-links-profile-mu-mauve.vercel.app/)
 
 ## My process
